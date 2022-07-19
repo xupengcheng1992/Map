@@ -48,21 +48,6 @@ class _MyAppState extends State<MyApp> {
       });
     });
 
-    // _locationPlugin.onLocationChanged().listen(((Map<String, Object> result) {
-    //   _locationResult = result;
-      // mainlatitude = result['latitude'] as double;
-      // mainlongitude = result['longitude'] as double;
-      // state.addressStr = result['address'].toString();
-      // setState(() {
-      //   mainTime = result['callbackTime'].toString();
-      //   mainTime = mainTime.substring(11);
-      //   mainTime = mainTime.substring(0, mainTime.length - 3);
-      //   streetStr = result['street'].toString();
-      //   splicingAddress = result['city'].toString() +
-      //       result['district'].toString() +
-      //       streetStr;
-      // });
-    // }));
   }
 
   @override
